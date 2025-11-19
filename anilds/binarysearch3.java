@@ -4,6 +4,8 @@ public class binarysearch3
     {
        int nums[]={1,3,5,7,9,11,13};
        int target=11;
+
+        // METHOD-1
        //int result=binarySearch(nums,target);
        
 //        if(result!=-1)
@@ -32,7 +34,7 @@ public class binarysearch3
 //     }
 // }
 
-
+//METHOD-2
 //USING RECURSIONN OF BINARY
 
      int result=binarySearch(nums,target,0,nums.length-1);
@@ -57,4 +59,5 @@ public class binarysearch3
             }
               return -1;
          }
+
    }      
